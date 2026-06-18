@@ -1,5 +1,6 @@
 import mongoose,{Schema} from "mongoose"
 
+
 const commentSchema=new Schema({
     content:{
         type:String,
